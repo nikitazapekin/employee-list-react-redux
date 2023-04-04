@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import { useSelector, useDispatch } from 'react-redux'
+import { increment, decrement, reset, add, remove } from "./store"
+import { useState, useRef, useEffect, memo } from 'react'
+import "./App.css"
+const Menu = memo(() => {
+  const dispatch = useDispatch()
+  const state = useSelector(state => state)
+  const [value, setValue] = useState('')
+  const inputRef = useRef(null)
+  return (
+    <>
+      <input ref={inputRef} type="text" className="addInput" onChange={e => setValue(e.target.value)} />
+      <button className="add" onClick={() => {
+        dispatch(add(value))
+      }}>add</button>
+    </>
+  )
+})
+export default function App() {
+  const dispatch = useDispatch()
+  const state = useSelector(state => state) 
+  const [count, setCount] = useState(0)
+  const deleteItem = (index) => {
+   dispatch(remove(index))
+  }
+  
+  const elems = state.map((item, index) => {
+    return (
+      <div className="item" key={item.id}>
+         {index+1}.
+        {item.text} 
+       
+        <button onClick={() => deleteItem(index)}>Delete</button>
+      </div>
+    )
+  })
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>To-do list using react-redux technology</h1>
+      <Menu />
+      {elems}
     </div>
-  );
+  )
 }
-
-export default App;

@@ -1,7 +1,14 @@
 .App {
   text-align: center;
 }
-
+body {
+  background: linear-gradient(45deg, #2980b9, #6dd5fa, #ffffff);
+  transition: background 2s ease-in-out;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Times New Roman', Times, serif;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +42,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+button {
+  border: none;
+  outline: none;
+  background: linear-gradient(45deg, yellow, orangered);
+  color: #fff;
+  border-radius: 5px;
+
 }
