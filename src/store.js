@@ -16,6 +16,18 @@ const counter = (state = [], action) => {
     case "REMOVE": {
                 return state.filter((item, index) => index !== action.todoId)
     }
+    case "SELECT": {
+console.log("state"+JSON.stringify(state))
+console.log(action.todoArray)
+ 
+return state.filter((item, index)=> {
+  for(let i=0; i<action.todoArray.length; i++){
+    if(String(index)===action.todoArray[i]){
+      return action.todoArray[i]
+    }
+  }
+})
+    }
     default: {
       return state
     }
@@ -32,5 +44,10 @@ export const remove = (todoId) => ({
   
     todoId,
   }) 
+  export const select = (todoArray) => ({
+    type: "SELECT",
+  
+    todoArray,
+  }) 
 
-export const store = createStore(counter)
+export const store = createStore(counter,   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
