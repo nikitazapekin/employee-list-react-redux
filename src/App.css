@@ -54,3 +54,7 @@ button {
 .ittem {
   transform: translateY(-20px);
 }
+.active {
+  position: absolute;
+  transform: translateX(132px) translateY(-20px);
+}

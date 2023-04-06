@@ -27,6 +27,29 @@ return state.filter((item, index)=> {
     }
   }
 })
+
+    }
+    case "SHOW": {
+ // return action.todoArray
+// return 1
+//console.log(1)
+/*return action.todoArray.forEach(element => {
+  return element
+}); */
+console.log("from redux"+JSON.stringify(action.todoArrayy)) //from redux{"state":[]}
+const arr =action.todoArrayy.state
+//for(let i=0;i<state.length; i++)
+state=[]
+state=arr
+console.log("stateeee"+JSON.stringify(state))
+/*for(let i=0; i< action.todoArrayy.length; i++){
+  console.log("1"+action.todoArrayy[i])
+} */
+return state.filter((item, index)=> {
+ // console.log("itemm"+item)
+ //return item+"1"
+ return item
+})  
     }
     default: {
       return state
@@ -48,6 +71,11 @@ export const remove = (todoId) => ({
     type: "SELECT",
   
     todoArray,
+  }) 
+  export const show = (todoArrayy) => ({
+    type: "SHOW",
+  
+    todoArrayy,
   }) 
 
 export const store = createStore(counter,   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
