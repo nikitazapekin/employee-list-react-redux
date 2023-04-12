@@ -1,0 +1,11 @@
+.styledFeatured {
+   /* background-color: rgb(71, 70, 70);
+    color: #fff; */
+   transform: translateY(-92px) translateX(420px);
+    background-color: black;
+width: 60px;
+color: #fff;
+border-radius: 6px;
+height: 20px;
+text-align: center;
+} 

@@ -1,0 +1,12 @@
+.styledBtn {
+    background-color: rgb(132, 224, 227);
+    width: 80px;
+    height: 20px;
+    text-align: center;
+ cursor: pointer;
+
+}
+.styleBtn {
+    display: flex;
+    gap: 20px;
+}

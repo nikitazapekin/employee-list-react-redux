@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+/*
 body {
   background: linear-gradient(45deg, #2980b9, #6dd5fa, #ffffff);
   transition: background 2s ease-in-out;
@@ -57,4 +58,4 @@ button {
 .active {
   position: absolute;
   transform: translateX(132px) translateY(-20px);
-}
+} */

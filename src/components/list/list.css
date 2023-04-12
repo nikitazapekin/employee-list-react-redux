@@ -1,0 +1,44 @@
+.activeBar {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 800px;
+    height: 40px;
+    background-color: #f0ecec;
+    top: 100px;
+    display: flex;
+    padding-left: 30px;
+}
+.skillBtn {
+    background-color: rgb(132, 224, 227);
+    margin-left: 20px;
+    padding-left: 20px;
+   
+    width:100px;
+}
+.deleteSkill {
+background-color: rgb(64, 64, 64);
+width: 40px;
+height: 40px;
+outline: none;
+border: none;
+position: relative;
+/*transform: translateX(30px);  */
+float: right;
+cursor: pointer;
+}
+.deleteStick{
+    width: 30px;
+    background-color: #fff;
+    height: 3px;
+    position: absolute;
+   /*left:0; */
+   transform: translateX(-15px);
+   cursor: pointer;
+}
+.deleteStick:nth-child(1){
+    transform: rotate(45deg) translateX(-10px) translateY(10px);
+}
+.deleteStick:nth-child(2){
+    transform: rotate(-45deg) translateX(-10px) translateY(-10px);
+}

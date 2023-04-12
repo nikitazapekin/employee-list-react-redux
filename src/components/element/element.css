@@ -1,0 +1,31 @@
+.item {
+    margin:  0 auto;
+    background-color: #fff;
+    height: 60px  ;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+.position{
+    padding-left: 60px;
+    transform: translateY(5px);
+}
+.postedAt {
+    padding-left: 60px;
+    transform: translateY(-25px);
+  
+}
+.company{
+/*   position: absolute;
+   left: 100px; */
+  padding-left: 300px;
+  transform: translateY(-35px);
+
+}
+.languages{
+  /*  position: relative;
+    left: 90%; */
+    float: right;
+    padding-right: 20px;
+    transform: translateY(-75px);
+}
