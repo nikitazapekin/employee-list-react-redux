@@ -1,5 +1,6 @@
 .styledBtn {
-    background-color: rgb(132, 224, 227);
+   background-color: rgb(132, 224, 227); 
+  
     width: 80px;
     height: 20px;
     text-align: center;
@@ -9,4 +10,10 @@
 .styleBtn {
     display: flex;
     gap: 20px;
+}
+@media (max-width: 800px){
+    .styleBtn {
+        position: relative;
+        top: 80px
+    }
 }

@@ -9,3 +9,16 @@ border-radius: 6px;
 height: 20px;
 text-align: center;
 } 
+
+@media (max-width: 800px){
+    .styledFeatured{
+        transform: translateY(-66px) translateX(200px); 
+    }
+} 
+/*
+@media (max-width: 600px){
+    .styledFeatured {
+        transform: translateY(-66px) translateX(170px); 
+    }
+} 
+*/

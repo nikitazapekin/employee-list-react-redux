@@ -93,7 +93,7 @@ const leng =Object.values(data).length
     <div>
     
       {anime != 0 ? <div className="activeBar">{ell}</div> : null}
-      {elements}
+      {elements} 
     </div>
   );
 });

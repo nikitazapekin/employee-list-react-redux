@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.background{
+  max-width: 1460px;
+  width: 100%;
+ margin:  0 auto;
+}
 /*
 body {
   background: linear-gradient(45deg, #2980b9, #6dd5fa, #ffffff);

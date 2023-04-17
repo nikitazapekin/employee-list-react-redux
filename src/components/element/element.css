@@ -22,6 +22,15 @@
   transform: translateY(-35px);
 
 }
+
+@media (max-width: 800px){
+    .company {
+    /*    transform: translateY(-10px); */
+    padding-left: 280px;
+    }
+
+}
+
 .languages{
   /*  position: relative;
     left: 90%; */
@@ -35,3 +44,20 @@
     border-radius: 50%;
     position: absolute;
 }
+@media (max-width: 800px){
+    .item {
+        height: 120px;
+    }
+}
+/*
+@media (max-width: 600px){
+    .company {
+
+    }
+    .styledFeatured {
+        transform: translateY(-66px) translateX(150px); 
+    }
+    .styledNew {
+        transform: translateY(-46px) translateX(100px); 
+    }
+} */
