@@ -2,7 +2,7 @@
   {
     "id": 1,
     "company": "Photosnap",
-    "logo": "./images/photosnap.svg",
+    "logo": "https://fanibani.ru/images/wp-content/uploads/2021/06/na-avy-parni-21.jpg",
     "new": true,
     "featured": true,
     "position": "Senior Frontend Developer",
@@ -17,7 +17,7 @@
   {
     "id": 2,
     "company": "Manage",
-    "logo": "./images/manage.svg",
+    "logo": "https://coolsen.ru/wp-content/uploads/2021/06/46-4.jpg",
     "new": true,
     "featured": true,
     "position": "Fullstack Developer",
@@ -32,7 +32,7 @@
   {
     "id": 3,
     "company": "Account",
-    "logo": "./images/account.svg",
+    "logo": "https://fikiwiki.com/uploads/posts/2022-02/1644917710_13-fikiwiki-com-p-kartinki-devushek-na-avu-krasivie-krutie-14.jpg",
     "new": true,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -47,7 +47,7 @@
   {
     "id": 4,
     "company": "MyHome",
-    "logo": "./images/myhome.svg",
+    "logo": "https://otkritkis.com/wp-content/uploads/2022/01/1619898134_3-oir_mobi-p-krutie-zhivotnie-zhivotnie-krasivo-foto-3.jpg",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -62,7 +62,7 @@
   {
     "id": 5,
     "company": "Loop Studios",
-    "logo": "./images/loop-studios.svg",
+    "logo": "https://klike.net/uploads/posts/2023-02/1675752830_3-4.jpg",
     "new": false,
     "featured": false,
     "position": "Software Engineer",
@@ -77,7 +77,7 @@
   {
     "id": 6,
     "company": "FaceIt",
-    "logo": "./images/faceit.svg",
+    "logo": "https://padletuploads.blob.core.windows.net/prod/215706022/181a04e302b2ebe67ba6dd5118b41313/blilbi.jpg",
     "new": false,
     "featured": false,
     "position": "Junior Backend Developer",
@@ -92,7 +92,7 @@
   {
     "id": 7,
     "company": "Shortly",
-    "logo": "./images/shortly.svg",
+    "logo": "https://fikiwiki.com/uploads/posts/2022-02/1645002091_35-fikiwiki-com-p-kartinki-volka-na-avu-35.jpg",
     "new": false,
     "featured": false,
     "position": "Junior Developer",
@@ -107,7 +107,7 @@
   {
     "id": 8,
     "company": "Insure",
-    "logo": "./images/insure.svg",
+    "logo": "https://klike.net/uploads/posts/2022-08/1661173345_j-20.jpg",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -122,7 +122,7 @@
   {
     "id": 9,
     "company": "Eyecam Co.",
-    "logo": "./images/eyecam-co.svg",
+    "logo": "https://sun9-55.userapi.com/impf/c631720/v631720114/4cb53/yZFX_7y4utk.jpg?size=1196x957&quality=96&sign=c5b5d5607ab5f1584ba495f55b398ffe&c_uniq_tag=R6ZeMlqs7nyOpl5VJH2am2gUxUx96I4VdzYpY6vgxDg&type=album",
     "new": false,
     "featured": false,
     "position": "Full Stack Engineer",
@@ -137,7 +137,7 @@
   {
     "id": 10,
     "company": "The Air Filter Company",
-    "logo": "./images/the-air-filter-company.svg",
+    "logo": "https://heaclub.ru/tim/c071d44eb83c332567124ba56efb451b/kartinka-na-avu-dlya-parnei-prikolnaya.jpg",
     "new": false,
     "featured": false,
     "position": "Front-end Dev",
@@ -156,10 +156,168 @@
 
 
 
+
   {
-    "id": 1,
+    "id": 11,
     "company": "Photosnap",
-    "logo": "./images/photosnap.svg",
+    "logo": "https://fanibani.ru/images/wp-content/uploads/2021/06/na-avy-parni-21.jpg",
+    "new": true,
+    "featured": true,
+    "position": "Senior Frontend Developer",
+    "role": "Frontend",
+    "level": "Senior",
+    "postedAt": "1d ago",
+    "contract": "Full Time",
+    "location": "USA Only",
+    "languages": ["HTML", "CSS"],
+    "tools": []
+  },
+  {
+    "id": 12,
+    "company": "Manage",
+    "logo": "https://coolsen.ru/wp-content/uploads/2021/06/46-4.jpg",
+    "new": true,
+    "featured": true,
+    "position": "Fullstack Developer",
+    "role": "Fullstack",
+    "level": "Midweight",
+    "postedAt": "1d ago",
+    "contract": "Part Time",
+    "location": "Remote",
+    "languages": ["Python", "C++"],
+    "tools": ["React"]
+  },
+  {
+    "id": 13,
+    "company": "Account",
+    "logo": "https://fikiwiki.com/uploads/posts/2022-02/1644917710_13-fikiwiki-com-p-kartinki-devushek-na-avu-krasivie-krutie-14.jpg",
+    "new": true,
+    "featured": false,
+    "position": "Junior Frontend Developer",
+    "role": "Frontend",
+    "level": "Junior",
+    "postedAt": "2d ago",
+    "contract": "Part Time",
+    "location": "USA Only",
+    "languages": ["Js", "COBOL"],
+    "tools": ["React", "Sass"]
+  },
+  {
+    "id": 14,
+    "company": "MyHome",
+    "logo": "https://otkritkis.com/wp-content/uploads/2022/01/1619898134_3-oir_mobi-p-krutie-zhivotnie-zhivotnie-krasivo-foto-3.jpg",
+    "new": false,
+    "featured": false,
+    "position": "Junior Frontend Developer",
+    "role": "Frontend",
+    "level": "Junior",
+    "postedAt": "5d ago",
+    "contract": "Contract",
+    "location": "USA Only",
+    "languages": ["CSS", "Js", "C#"],
+    "tools": []
+  },
+  {
+    "id": 15,
+    "company": "Loop Studios",
+    "logo": "https://klike.net/uploads/posts/2023-02/1675752830_3-4.jpg",
+    "new": false,
+    "featured": false,
+    "position": "Software Engineer",
+    "role": "Fullstack",
+    "level": "Midweight",
+    "postedAt": "1w ago",
+    "contract": "Full Time",
+    "location": "Worldwide",
+    "languages": ["Js", "Python"],
+    "tools": ["Ruby", "Sass"]
+  },
+  {
+    "id": 16,
+    "company": "FaceIt",
+    "logo": "https://padletuploads.blob.core.windows.net/prod/215706022/181a04e302b2ebe67ba6dd5118b41313/blilbi.jpg",
+    "new": false,
+    "featured": false,
+    "position": "Junior Backend Developer",
+    "role": "Backend",
+    "level": "Junior",
+    "postedAt": "2w ago",
+    "contract": "Full Time",
+    "location": "UK Only",
+    "languages": ["Go"],
+    "tools": ["RoR"]
+  },
+  {
+    "id": 17,
+    "company": "Shortly",
+    "logo": "https://fikiwiki.com/uploads/posts/2022-02/1645002091_35-fikiwiki-com-p-kartinki-volka-na-avu-35.jpg",
+    "new": false,
+    "featured": false,
+    "position": "Junior Developer",
+    "role": "Frontend",
+    "level": "Junior",
+    "postedAt": "2w ago",
+    "contract": "Full Time",
+    "location": "Worldwide",
+    "languages": ["Kotlin", "Js"],
+    "tools": ["Sass"]
+  },
+  {
+    "id": 18,
+    "company": "Insure",
+    "logo": "https://klike.net/uploads/posts/2022-08/1661173345_j-20.jpg",
+    "new": false,
+    "featured": false,
+    "position": "Junior Frontend Developer",
+    "role": "Frontend",
+    "level": "Junior",
+    "postedAt": "2w ago",
+    "contract": "Full Time",
+    "location": "USA Only",
+    "languages": ["1C"],
+    "tools": ["Vue", "Sass"]
+  },
+  {
+    "id": 19,
+    "company": "Eyecam Co.",
+    "logo": "https://sun9-55.userapi.com/impf/c631720/v631720114/4cb53/yZFX_7y4utk.jpg?size=1196x957&quality=96&sign=c5b5d5607ab5f1584ba495f55b398ffe&c_uniq_tag=R6ZeMlqs7nyOpl5VJH2am2gUxUx96I4VdzYpY6vgxDg&type=album",
+    "new": false,
+    "featured": false,
+    "position": "Full Stack Engineer",
+    "role": "Fullstack",
+    "level": "Midweight",
+    "postedAt": "3w ago",
+    "contract": "Full Time",
+    "location": "Worldwide",
+    "languages": ["Pascal abc"],
+    "tools": ["Django"]
+  },
+  {
+    "id": 20,
+    "company": "The Air Filter Company",
+    "logo": "https://heaclub.ru/tim/c071d44eb83c332567124ba56efb451b/kartinka-na-avu-dlya-parnei-prikolnaya.jpg",
+    "new": false,
+    "featured": false,
+    "position": "Front-end Dev",
+    "role": "Frontend",
+    "level": "Junior",
+    "postedAt": "1mo ago",
+    "contract": "Part Time",
+    "location": "Worldwide",
+    "languages": ["Matlab"],
+    "tools": ["React", "Sass"]
+  },
+
+
+
+
+
+
+
+  {
+    "id": 21,
+    "company": "Photosnap",
+    "logo": "https://fanibani.ru/images/wp-content/uploads/2021/06/na-avy-parni-21.jpg",
     "new": true,
     "featured": true,
     "position": "Senior Frontend Developer",
@@ -172,9 +330,9 @@
     "tools": []
   },
   {
-    "id": 2,
+    "id": 22,
     "company": "Manage",
-    "logo": "./images/manage.svg",
+    "logo": "https://coolsen.ru/wp-content/uploads/2021/06/46-4.jpg",
     "new": true,
     "featured": true,
     "position": "Fullstack Developer",
@@ -183,13 +341,13 @@
     "postedAt": "1d ago",
     "contract": "Part Time",
     "location": "Remote",
-    "languages": ["Python"],
+    "languages": ["Python" ,"Go"],
     "tools": ["React"]
   },
   {
-    "id": 3,
+    "id": 23,
     "company": "Account",
-    "logo": "./images/account.svg",
+    "logo": "https://fikiwiki.com/uploads/posts/2022-02/1644917710_13-fikiwiki-com-p-kartinki-devushek-na-avu-krasivie-krutie-14.jpg",
     "new": true,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -202,9 +360,9 @@
     "tools": ["React", "Sass"]
   },
   {
-    "id": 4,
+    "id": 24,
     "company": "MyHome",
-    "logo": "./images/myhome.svg",
+    "logo": "https://otkritkis.com/wp-content/uploads/2022/01/1619898134_3-oir_mobi-p-krutie-zhivotnie-zhivotnie-krasivo-foto-3.jpg",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -213,13 +371,13 @@
     "postedAt": "5d ago",
     "contract": "Contract",
     "location": "USA Only",
-    "languages": ["CSS", "Js"],
+    "languages": ["1C", "Js"],
     "tools": []
   },
   {
-    "id": 5,
+    "id": 25,
     "company": "Loop Studios",
-    "logo": "./images/loop-studios.svg",
+    "logo": "https://klike.net/uploads/posts/2023-02/1675752830_3-4.jpg",
     "new": false,
     "featured": false,
     "position": "Software Engineer",
@@ -228,13 +386,13 @@
     "postedAt": "1w ago",
     "contract": "Full Time",
     "location": "Worldwide",
-    "languages": ["Js"],
+    "languages": ["Js", "Pascal abc"],
     "tools": ["Ruby", "Sass"]
   },
   {
-    "id": 6,
+    "id": 26,
     "company": "FaceIt",
-    "logo": "./images/faceit.svg",
+    "logo": "https://padletuploads.blob.core.windows.net/prod/215706022/181a04e302b2ebe67ba6dd5118b41313/blilbi.jpg",
     "new": false,
     "featured": false,
     "position": "Junior Backend Developer",
@@ -247,9 +405,9 @@
     "tools": ["RoR"]
   },
   {
-    "id": 7,
+    "id": 27,
     "company": "Shortly",
-    "logo": "./images/shortly.svg",
+    "logo": "https://fikiwiki.com/uploads/posts/2022-02/1645002091_35-fikiwiki-com-p-kartinki-volka-na-avu-35.jpg",
     "new": false,
     "featured": false,
     "position": "Junior Developer",
@@ -262,9 +420,9 @@
     "tools": ["Sass"]
   },
   {
-    "id": 8,
+    "id": 28,
     "company": "Insure",
-    "logo": "./images/insure.svg",
+    "logo": "https://klike.net/uploads/posts/2022-08/1661173345_j-20.jpg",
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -273,13 +431,13 @@
     "postedAt": "2w ago",
     "contract": "Full Time",
     "location": "USA Only",
-    "languages": ["Js"],
+    "languages": ["Js", "Swift"],
     "tools": ["Vue", "Sass"]
   },
   {
-    "id": 9,
+    "id": 29,
     "company": "Eyecam Co.",
-    "logo": "./images/eyecam-co.svg",
+    "logo": "https://sun9-55.userapi.com/impf/c631720/v631720114/4cb53/yZFX_7y4utk.jpg?size=1196x957&quality=96&sign=c5b5d5607ab5f1584ba495f55b398ffe&c_uniq_tag=R6ZeMlqs7nyOpl5VJH2am2gUxUx96I4VdzYpY6vgxDg&type=album",
     "new": false,
     "featured": false,
     "position": "Full Stack Engineer",
@@ -292,9 +450,9 @@
     "tools": ["Django"]
   },
   {
-    "id": 10,
+    "id": 30,
     "company": "The Air Filter Company",
-    "logo": "./images/the-air-filter-company.svg",
+    "logo": "https://heaclub.ru/tim/c071d44eb83c332567124ba56efb451b/kartinka-na-avu-dlya-parnei-prikolnaya.jpg",
     "new": false,
     "featured": false,
     "position": "Front-end Dev",
@@ -306,4 +464,11 @@
     "languages": ["Js"],
     "tools": ["React", "Sass"]
   }
+
+
+
+
+
+
+
 ]

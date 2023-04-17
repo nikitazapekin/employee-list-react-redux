@@ -3,45 +3,19 @@ import { useSelector, useDispatch } from 'react-redux'
 import { createStore } from "redux"
 import { StrictMode, useState, useRef, useEffect, memo } from 'react'
 import { Provider } from "react-redux"
-const counter = (state = [], action) => {
-switch (action.type) {
-  case "SHOW": {
-    state.push(action.todoArrayy)
-    console.log(state)
-    return state
-  }
-  case "SHOWARRAY": {
-    state.push(action.todoArrayy)
-    state = state.filter((item, index) => {
-      return state.indexOf(item) === index;
-    });
-    console.log(state)
-    return state
-  }
-  case "DEL": {
-    return state.filter(item=> item!=action.todoArrayy)
-  }
- default: {
-  return  state;
- }
-  }
-}
-export const show = (todoArrayy) => ({
-  type: "SHOW",
+import { combineReducers } from 'redux';
+import { addLang, positionReducer } from './components/stateStorege/reducers';
+import { todoReducer } from './components/stateStorege/reducers';
+import { pos } from './components/stateStorege/reducers';
+import { rem } from './components/stateStorege/reducers';
+import { removedArr } from './components/stateStorege/reducers';
+export const rootReducer = combineReducers({
+  todos: todoReducer,
+  positions: positionReducer,
+  langg: addLang, 
+ pos: pos,
+ rem:rem,
+ removedArr: removedArr
+});
 
-  todoArrayy,
-}) 
-
-export const showArray = (todoArrayy) => ({
-  type: "SHOWARRAY",
-
-  todoArrayy,
-}) 
-
-export const del = (todoArrayy) => ({
-  type: "DEL",
-
-  todoArrayy,
-}) 
-export const store = createStore(counter,   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
-export const store2 = createStore(counter, window.REDUX_DEVTOOLS_EXTENSION && window.REDUX_DEVTOOLS_EXTENSION());
+export const store = createStore(rootReducer, window.REDUX_DEVTOOLS_EXTENSION && window.REDUX_DEVTOOLS_EXTENSION());

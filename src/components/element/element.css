@@ -29,3 +29,9 @@
     padding-right: 20px;
     transform: translateY(-75px);
 }
+.itemImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+}

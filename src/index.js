@@ -8,7 +8,6 @@ import { loadState } from "./localStorage";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
-//const persistedState =loadState()
 root.render(
   <Provider store={store}>
     <App />
